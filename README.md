@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @jopamo
-- 👀 I’m interested in computers and programming with a slant toward linux and open source software.
+- 👀 I’m interested in linux.
 - 🌱 I’m currently learning Full Stack Web Development
 - 💞️ I’m looking to collaborate on anything.
 - 📫 How to reach me @jopamo on [libera irc](https://libera.chat/) or p(at)1g4.org
