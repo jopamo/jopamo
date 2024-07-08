@@ -93,7 +93,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 37.2 characters per line of code written</li>
+                        <li>Has approximately 39.1 characters per line of code written</li>
                         <li>Mostly pushes code around 00:00</li>
                         <li>Mostly active on Tuesday</li>
                     </ul>
@@ -214,13 +214,13 @@
                             21
                         </div>
                         <div class="entry">
-                            <span class="value">35</span>
-                            <div class="bar" style="height: 11.075949367088606px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">26</span>
+                            <div class="bar" style="height: 8.227848101265822px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             22
                         </div>
                         <div class="entry">
-                            <span class="value">4</span>
-                            <div class="bar" style="height: 1.2658227848101267px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">13</span>
+                            <div class="bar" style="height: 4.113924050632911px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             23
                         </div>
                     </div>
@@ -230,13 +230,13 @@
                         <h3>Commit activity per day of week</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                <span class="value">9</span>
+                                <div class="bar" style="height: 2.848101265822785px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Sun
                             </div>
                             <div class="entry">
-                                <span class="value">35</span>
-                                <div class="bar" style="height: 11.075949367088606px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">26</span>
+                                <div class="bar" style="height: 8.227848101265822px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Mon
                             </div>
                             <div class="entry">
@@ -271,8 +271,8 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Shell</span>
-                                <div class="bar" style="width: 21.02164406615994%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">26%</span>
+                                <div class="bar" style="width: 20.031416557486125%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">25%</span>
                             </div>
                         </div>
                     </section>
@@ -2310,7 +2310,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 7 Jul 2024, 23:11:17 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 8 Jul 2024, 00:12:13 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
