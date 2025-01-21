@@ -270,18 +270,18 @@
                         <h3>Language activity</h3>
                         <div class="chart-bars horizontal">
                             <div class="entry">
-                                <span class="name">C</span>
-                                <div class="bar" style="width: 19.274287635205948%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="name">Shell</span>
+                                <div class="bar" style="width: 18.83710233391235%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">24%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">Shell</span>
-                                <div class="bar" style="width: 17.208676909691324%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">22%</span>
+                                <span class="name">C</span>
+                                <div class="bar" style="width: 15.888569619636684%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">20%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Makefile</span>
-                                <div class="bar" style="width: 0.6786498190662632%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.4580160933348485%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">1%</span>
                             </div>
                         </div>
@@ -2288,7 +2288,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 21 Jan 2025, 13:02:55 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 21 Jan 2025, 14:02:24 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
