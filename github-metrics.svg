@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="857" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="921" class="">
     <defs>
         <style/>
     </defs>
@@ -16,20 +16,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 16.9mb of code in 20387 edited files across 5974 commits</small>
+                <small>estimation from 17.1mb of code in 21522 edited files across 6044 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="254.77804539700975" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="254.77804539700975" y="0" width="153.78902020741444" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="408.56706560442416" y="0" width="25.438442819353906" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="434.00550842377805" y="0" width="15.81816907965106" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="449.8236775034291" y="0" width="3.426389055394067" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="453.25006655882316" y="0" width="2.47185301320745" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="455.7219195720307" y="0" width="2.305625660722821" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="458.0275452327535" y="0" width="1.9724547672465198" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="257.23148230049355" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="257.23148230049355" y="0" width="151.95046614892" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="409.18194844941354" y="0" width="25.13432518973234" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="434.3162736391459" y="0" width="15.62906221805509" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="449.945335857201" y="0" width="3.3854264333858155" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="453.33076229058685" y="0" width="2.4423019088223326" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="455.77306419940913" y="0" width="2.2780618111698834" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="458.051126010579" y="0" width="1.9488739894209846" height="8" fill="#663399"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -96,7 +96,7 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 51 commits)</small>
+                    <small class="h-details">(computed from last 55 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
@@ -217,8 +217,8 @@
                             20
                         </div>
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">6</span>
+                            <div class="bar" style="height: 37.5px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             21
                         </div>
                         <div class="entry">
@@ -263,8 +263,8 @@
                                 Thu
                             </div>
                             <div class="entry">
-                                <span class="value">1</span>
-                                <div class="bar" style="height: 2px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">5</span>
+                                <div class="bar" style="height: 10px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Fri
                             </div>
                             <div class="entry">
@@ -279,23 +279,43 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">C</span>
-                                <div class="bar" style="width: 63.12193145155006%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                <span class="value">79%</span>
+                                <div class="bar" style="width: 41.94046928244572%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">52%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">C++</span>
-                                <div class="bar" style="width: 8.849456938111686%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">11%</span>
+                                <div class="bar" style="width: 22.226088988413977%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">28%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">CMake</span>
+                                <div class="bar" style="width: 4.995813455359751%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">6%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Shell</span>
-                                <div class="bar" style="width: 3.3291330312792615%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">4%</span>
+                                <div class="bar" style="width: 2.16276506669263%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">3%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">TypeScript</span>
+                                <div class="bar" style="width: 1.3294129101353325%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">2%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">PowerShell</span>
+                                <div class="bar" style="width: 0.6416824067763606%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">1%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Makefile</span>
-                                <div class="bar" style="width: 0.45492748184498366%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">1%</span>
+                                <div class="bar" style="width: 0.2955427903806835%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">0%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">Objective-C++</span>
+                                <div class="bar" style="width: 0.09757959302891638%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">0%</span>
                             </div>
                         </div>
                     </section>
@@ -737,15 +757,15 @@
                             </g>
                         </g>
                         <g transform="translate(17, 10)">
-                            <g transform="translate(0, 5.157894736842105)">
+                            <g transform="translate(0, 5.2631578947368425)">
                                 <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.8421052631578947 0,1.8421052631578947 z"/>
-                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.8421052631578947 1.7,2.8421052631578947 z"/>
+                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.736842105263158 0,1.736842105263158 z"/>
+                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.736842105263158 1.7,2.736842105263158 z"/>
                             </g>
-                            <g transform="translate(-1.7, 6.578947368421053)">
+                            <g transform="translate(-1.7, 6.473684210526315)">
                                 <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.4210526315789473 0,1.4210526315789473 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.4210526315789473 1.7,2.4210526315789473 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.526315789473684 0,1.526315789473684 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.526315789473684 1.7,2.526315789473684 z"/>
                             </g>
                             <g transform="translate(-3.4, 7.2631578947368425)">
                                 <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -774,20 +794,20 @@
                             </g>
                         </g>
                         <g transform="translate(18.7, 11)">
-                            <g transform="translate(0, 5.473684210526315)">
-                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.526315789473684 0,1.526315789473684 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.526315789473684 1.7,2.526315789473684 z"/>
-                            </g>
-                            <g transform="translate(-1.7, 6.473684210526315)">
-                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.526315789473684 0,1.526315789473684 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.526315789473684 1.7,2.526315789473684 z"/>
-                            </g>
-                            <g transform="translate(-3.4, 7.7894736842105265)">
+                            <g transform="translate(0, 5.684210526315789)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.2105263157894735 0,1.2105263157894737 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.2105263157894737 1.7,2.2105263157894735 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.3157894736842106 0,1.3157894736842106 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3157894736842106 1.7,2.3157894736842106 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 6.368421052631579)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6315789473684212 0,1.631578947368421 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.631578947368421 1.7,2.6315789473684212 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 7.684210526315789)">
+                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.3157894736842106 0,1.3157894736842106 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3157894736842106 1.7,2.3157894736842106 z"/>
                             </g>
                             <g transform="translate(-5.1, 8.894736842105264)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1255,15 +1275,15 @@
                             </g>
                         </g>
                         <g transform="translate(40.8, 24)">
-                            <g transform="translate(0, 5.684210526315789)">
+                            <g transform="translate(0, 5.7894736842105265)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.3157894736842106 0,1.3157894736842106 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3157894736842106 1.7,2.3157894736842106 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.2105263157894735 0,1.2105263157894737 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.2105263157894737 1.7,2.2105263157894735 z"/>
                             </g>
-                            <g transform="translate(-1.7, 4.368421052631579)">
+                            <g transform="translate(-1.7, 4.2631578947368425)">
                                 <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.631578947368421 0,3.631578947368421 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.631578947368421 1.7,4.631578947368421 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.7368421052631575 0,3.7368421052631575 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.7368421052631575 1.7,4.7368421052631575 z"/>
                             </g>
                             <g transform="translate(-3.4, 7.368421052631579)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -2327,7 +2347,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 1 Mar 2025, 11:02:19 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 1 Mar 2025, 12:02:20 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
