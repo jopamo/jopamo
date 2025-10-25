@@ -51,5 +51,3 @@ jobs:
           plugin_lines: no
           users_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot], actions-user, action@github.com, 1g4-bot
           repositories_limit: 100
-          repositories_exclude:
-            - bp
