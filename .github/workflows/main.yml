@@ -49,8 +49,3 @@ jobs:
           plugin_lines: no
 
           users_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot], actions-user, action@github.com, 1g4-bot
-
-          # Optional: enable repository traffic plugin
-          plugin_traffic: yes
-          plugin_traffic_skipped:
-            - bp
