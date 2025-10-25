@@ -1,10 +1,12 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # run once daily instead of hourly to avoid rate limits and long runs
-  schedule: [{cron: "19 6 * * *"}]
+  schedule:
+    - cron: "19 6 * * *"
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   github-metrics:
@@ -16,50 +18,39 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # auth
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # baseline config kept light to reduce API calls
           user: jopamo
           template: classic
           base: metadata
           base_indepth: no
           config_timezone: America/New_York
-          filename: metrics.svg  # write to a file in the repo instead of updating README directly
+          filename: metrics.svg
 
-          # tighten repository scope to owner non-forks for speed
           repositories_affiliations: owner
           repositories_forks: no
 
-          # resilient output if some plugins hit limits
           plugins_errors_fatal: no
 
-          # habits plugin kept
-          plugin_habits: yes
-          plugin_habits_charts: yes
+          # Plugin: Full-history calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
 
-          # isocalendar kept but half-year to cut work
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # languages plugin without indepth to avoid cloning many repos
+          # Plugin: Languages
           plugin_languages: yes
-          plugin_languages_indepth: no
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
           plugin_languages_limit: 6
-          plugin_languages_threshold: 0%
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 100
-          plugin_languages_analysis_timeout: 10
-          plugin_languages_analysis_timeout_repositories: 5
+          plugin_languages_threshold: "0%"
+          plugin_languages_other: yes
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used
 
-		  # traffic plugin
+          # Plugin: Isometric commit calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Plugin: Traffic (repository page views)
           plugin_traffic: yes
 
-          # lines plugin disabled since it's expensive on large histories
           plugin_lines: no
 
-          # ignore bots
           users_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot], actions-user, action@github.com, 1g4-bot
