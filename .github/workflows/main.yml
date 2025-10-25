@@ -32,10 +32,6 @@ jobs:
 
           plugins_errors_fatal: no
 
-          # Plugin: Full-history calendar
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
-
           # Plugin: Languages
           plugin_languages: yes
           plugin_languages_limit: 6
