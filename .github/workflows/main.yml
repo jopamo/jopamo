@@ -37,12 +37,6 @@ jobs:
           # habits plugin kept
           plugin_habits: yes
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 120
-          plugin_habits_languages_limit: 6
-          plugin_habits_languages_threshold: 0
 
           # isocalendar kept but half-year to cut work
           plugin_isocalendar: yes
@@ -60,11 +54,9 @@ jobs:
           plugin_languages_recent_load: 100
           plugin_languages_analysis_timeout: 10
           plugin_languages_analysis_timeout_repositories: 5
-          plugin_languages_skipped: bp
 
 		  # traffic plugin
           plugin_traffic: yes
-          plugin_traffic_skipped: bp
 
           # lines plugin disabled since it's expensive on large histories
           plugin_lines: no
